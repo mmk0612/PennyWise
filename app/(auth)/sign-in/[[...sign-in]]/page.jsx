@@ -36,7 +36,7 @@ export default function Page() {
 
         <main className="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6">
           <div className="max-w-xl lg:max-w-3xl">
-            <div className="relative -mt-16 block lg:hidden">
+            <div className="relative -mt-16 block lg:hidden my-5 mx-auto">
               <a
                 className="inline-flex size-16 items-center justify-center rounded-full bg-white text-blue-600 sm:size-20"
                 href="#"
@@ -56,12 +56,13 @@ export default function Page() {
               </a>
 
               <h1 className="mt-2 text-2xl font-bold text-black sm:text-3xl md:text-4xl">
-                Welcome to Squid 🦑
+                Welcome to PennyWise 💰
               </h1>
 
-              <p className="mt-4 leading-relaxed text-black">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi nam dolorum aliquam, quibusdam aperiam voluptatum.
+              <p className="mt-4 leading-relaxed text-yellow-500 text-center">
+                Stay on top of your budget and track your spending effortlessly
+                with PennyWise. Gain insights, control your expenses, and
+                achieve your financial goals with just a few clicks.
               </p>
             </div>
             <SignIn />
