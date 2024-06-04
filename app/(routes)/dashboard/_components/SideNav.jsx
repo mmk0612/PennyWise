@@ -47,7 +47,7 @@ function SideNav() {
 
   return (
     <div>
-      <div className="md:hidden p-5 flex justify-between items-center">
+      <div className="md:hidden p-5 flex justify-between items-center w-full">
         <Button
           onClick={() => setIsOpen(!isOpen)}
           className="text-gray-400 bg-blue-700 hover:text-gray-50"

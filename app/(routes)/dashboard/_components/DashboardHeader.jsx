@@ -25,11 +25,11 @@ function DashboardHeader() {
     }
   };
   return (
-    <div className="p-5 shadow-md border-bt flex justify-between bg-blue-600">
-      <div className="flex-grow justify-center ml-20">
+    <div className="p-5 shadow-md border-bt flex justify-between bg-blue-600 z-10">
+      <div className="flex-grow justify-center ml-20 z-10">
         <SearchBar onSearch={handleSearch} />
       </div>
-      <div className="flex gap-2 items-center text-gray-400 hover:text-gray-50">
+      <div className="flex gap-2 items-center text-gray-400 hover:text-gray-50 z-10">
         <UserButton />
       </div>
     </div>
