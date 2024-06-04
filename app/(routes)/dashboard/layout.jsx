@@ -28,14 +28,14 @@ function dashboardLayout({ children }) {
   };
 
   return (
-    <div>
-      <div className="fixed md:w-64 hidden md:block  bg-blue-600">
+    <div className="flex">
+      <div className="fixed md:relative md:w-64">
         <SideNav />
       </div>
-      <div className="md:ml-64  bg-blue-600">
+      <div className="flex-grow">
         <DashboardHeader />
+        <div className="p-4">{children}</div>
       </div>
-      <div className="md:ml-64">{children}</div>
     </div>
   );
 }
